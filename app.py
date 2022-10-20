@@ -1,12 +1,15 @@
-import requests
 from flask import Flask, request
+import requests
+
 
 app = Flask(__name__)
 
 # global variables
-bot_token = '1698251305:AAGG1NVz_gdtTU1EvLGqpZniLyWjg-k_vSc'
+#bot_token = '1698251305:AAGG1NVz_gdtTU1EvLGqpZniLyWjg-k_vSc'
+bot_token = '5763664452:AAFq9yH8hmMJVkaMIICaEQ3MOvbcNqSPTGA'
 global_chat_id = '593444341'
-channel_id = '-1001300825950'
+#channel_id = '-1001300825950'
+channel_id = '-1001853889313'
 threshold = 30000
 
 @app.route ('/')
